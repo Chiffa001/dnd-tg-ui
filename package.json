@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json",
-    "lint": "eslint ."
+    "lint": "eslint . && prettier --check .",
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "@eslint/compat": "^1.4.0",
@@ -18,8 +19,12 @@
     "@tsconfig/svelte": "^5.0.5",
     "@types/node": "^22",
     "eslint": "^9.36.0",
+    "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-svelte": "^3.12.4",
     "globals": "^16.4.0",
+    "prettier": "^3.6.2",
+    "prettier-plugin-svelte": "^3.4.0",
+    "prettier-plugin-tailwindcss": "^0.6.14",
     "svelte": "^5.39.6",
     "svelte-check": "^4.3.2",
     "tailwindcss": "^4.1.14",
