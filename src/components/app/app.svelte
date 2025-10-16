@@ -2,6 +2,6 @@
   const name: string = "World"
 </script>
 
-<main>
-  Hello, {name}!
+<main class="text-yellow-500">
+    Hello, {name}!
 </main>
