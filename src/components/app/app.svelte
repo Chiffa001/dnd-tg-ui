@@ -1,7 +1,5 @@
 <script lang="ts">
-  const name: string = 'World';
+  import PhoneMask from '../ui/phone-mask';
 </script>
 
-<main class="text-yellow-500">
-  Hello, {name}!
-</main>
+<PhoneMask>Hello</PhoneMask>
