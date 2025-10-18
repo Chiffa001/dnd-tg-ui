@@ -8,7 +8,7 @@
     </div>
   </div>
 
-  <div class="flex h-[100vh] w-full flex-col items-center p-4 sm:hidden">
+  <div class="relative flex h-[100vh] w-full flex-col items-center p-4 sm:hidden">
     <slot></slot>
   </div>
 </main>
